@@ -1,8 +1,8 @@
 {
-  "name": "@dsb-norge/vue-keycloak-js",
-  "version": "2.2.0",
+  "name": "@josteitv/vue-keycloak-js",
+  "version": "3.0.0",
   "author": "Nils Lien",
-  "description": "A Keycloak plugin for Vue >= 2.x",
+  "description": "A Keycloak plugin for Vue.js",
   "main": "dist/dsb-vue-keycloak.cjs.js",
   "module": "dist/dsb-vue-keycloak.esm.js",
   "browser": "dist/dsb-vue-keycloak.umd.js",
@@ -10,12 +10,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git@github.com:dsb-norge/vue-keycloak-js.git"
+    "url": "git@github.com:josteitv/vue-keycloak-js.git"
   },
   "bugs": {
-    "url": "https://github.com/dsb-norge/vue-keycloak-js/issues"
+    "url": "https://github.com/josteitv/vue-keycloak-js/issues"
   },
-  "homepage": "https://github.com/dsb-norge/vue-keycloak-js",
+  "homepage": "https://github.com/josteitv/vue-keycloak-js",
   "dependencies": {
     "keycloak-js": "18.0.1"
   },
@@ -45,8 +45,6 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "version": "npm run build && git add -A",
-    "postversion": "git push -u --follow-tags origin main && npm publish",
     "lint": "eslint --ext .ts src",
     "lint:fix": "eslint --ext .ts src --fix"
   },
