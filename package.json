@@ -1,6 +1,6 @@
 {
   "name": "@josteitv/vue-keycloak-js",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "author": "Nils Lien",
   "description": "A Keycloak plugin for Vue.js",
   "main": "dist/dsb-vue-keycloak.cjs.js",
